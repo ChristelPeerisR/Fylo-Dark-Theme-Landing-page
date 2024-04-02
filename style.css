@@ -10,6 +10,10 @@
   box-sizing: inherit;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --intro-email-bg: hsl(217, 28%, 15%);
   --main-bg: hsl(218, 28%, 13%);
@@ -383,7 +387,7 @@ footer {
     position: absolute;
     display: none;
     color: hsl(0, 93%, 68%);
-    padding-left: 100px;
+    padding-left: 20px;
     font-size: 12px;
     font-weight: bold;
     margin-top: 50px;
